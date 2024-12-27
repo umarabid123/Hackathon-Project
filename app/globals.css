@@ -4,6 +4,5 @@
 
 
 .cs-container{
-    @apply 2xl:container w-full px-5 mx-auto;
-
+    @apply 2xl:container w-full px-8 sm:px-0 mx-auto;
 }

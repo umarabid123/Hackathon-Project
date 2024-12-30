@@ -22,7 +22,7 @@ export default function CreateEventPage() {
 		e.preventDefault();
 		try {
 			const response = await axios.post(
-				"http://localhost:8000/todos/create",
+				"https://hackathon-backend-bay.vercel.app/todos/create",
 				{
 					id: id,
 					name: name,

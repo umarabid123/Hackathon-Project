@@ -11,7 +11,7 @@ export default function Home() {
 	const [filter, setFilter] = useState("all");
 	const [categoryFilter, setCategoryFilter] = useState("all");
 	const fetchData = async () => {
-		const res = await fetch("http://localhost:8000/todos");
+		const res = await fetch("https://hackathon-backend-bay.vercel.app/todos");
 		const data = await res.json();
 		setData(data);
 		console.log("data", data);

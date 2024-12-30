@@ -99,7 +99,7 @@ export default function SignUpPage() {
 
   const handleSignUp = async (e) => {
 	e.preventDefault();
-	await axios.post("http://localhost:8000/auth/signup", {
+	await axios.post("https://hackathon-backend-bay.vercel.app/auth/signup", {
 		name: name,
 		email: email,
 		password: password,
